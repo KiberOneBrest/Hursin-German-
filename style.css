@@ -1,0 +1,222 @@
+h1 {
+  
+  font-size: 50px;
+  color: blue;
+}
+
+.eanglishorspanish {
+  width:100%;
+  
+}
+
+.list {
+  list-style-type: none;
+  border: 10px dotted green;
+  width: 600px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+
+body {
+  background-color: rgb(5, 53, 245);
+  height: 90px;
+}
+
+nav a {
+  padding: 0;
+  padding: 10px;
+  border: 1px solid rgb(16, 244, 8);
+  border-radius: 10px;
+  font-size: 36px;
+}
+header {
+  background-color: rgb(81, 0, 255);
+  height: 110px;
+  text-align: center;
+  background-color: blueviolet;
+  color: blue;
+}
+nav a:hover {
+  background-color: aquamarine;
+  color: rgb(40, 242, 13);
+  transition: all 1s linear;
+}
+section p {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+
+section {
+  width: 90%;
+  background-color: rgb(211, 11, 11);
+  margin: 20px auto 0;
+}
+iframe {
+  width: 100%;
+  height: 700px;
+}
+div.video-container iframe {
+  width: 530px;
+  height: 315px;
+}
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  transform: translateX(-150%);
+}
+
+section:hover {
+  transition: all 1s linear;
+  background-color: rgba(3, 0, 161, 0.795);
+}
+
+.two-cards:hover .video-container {
+  transition: all 1s linear;
+  transform: translateX(0);
+}
+.show-img{
+  width: 330px; /* ширина элемента */
+  font-size: 50px; /* Размер шрифта */
+  border: 1px solid black; /*Граница */
+  padding: 20px; /* внутренний отступ*/
+  text-align: center; /*рассполагаем текст по центру*/
+  color: wheat; /* изменение цвета текста*/
+  margin: 0 auto 20px;
+  border-radius: 10px; /* используются для згаживания углов */
+}
+.show-img-container>img{
+   opacity: 0;/* делаем наше изображение прозрачным */
+
+}
+.show-img:hover~img{
+
+
+  opacity: 1;
+  transition: all 3s linear;
+  /* ~ - стили применяются длясоседских элементов */
+  /*~- стили комбининащие шифт + ё*/
+  /* делаем изображение нерпизрачным */
+  
+}
+td img{
+width: 100px;
+height: 60px;
+}
+
+  table{
+border-collapse: collapse;
+width: 100%;
+}
+
+td, th{
+border: 2px solid black;
+padding: 5px;
+}
+tr:nth-child(even){
+background-color: #f2f2f2;
+}
+tr:nth-child(odd){
+background-color: white;
+}
+tr:hover{
+background-color: rgb(34, 155, 235);
+
+}
+
+
+th{
+background-color: rgb(91, 91, 155);
+  }
+td a {
+color: black;
+}
+table{
+text-align: center;
+  font-size: 24px;
+}
+footer{
+  display: flex;
+  background-color:green;
+height: 60px;
+justify-content: center;
+align-items: center;
+gap:30px;
+}
+.w-70{
+width: 70%;
+
+
+}
+.w-30{
+  width: 30%;
+} 
+.two-cards{
+  display: flex;
+  gap: 30px;
+}
+.card{
+border-radius: 15px;
+padding: 10px;
+background-color: rgb(209, 99, 99);
+}
+.galery-conteiner{
+display: flex;
+justify-content: center;
+width: 100%;
+}
+.galery{
+width: 90%;
+}
+.galery-item{
+margin-top: 10px;
+border: 1px solid #333333;
+border-radius: 5px;
+float: left;
+width: 100%;
+background: #333333;
+}
+.zoom{
+display: block;
+width: 85%;
+margin: auto;
+height: 200px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.zoom:hover{
+transform: scale(1.05);
+  transition: all 0.3s linear;
+}
+.desc{
+font-size: 18px;
+color: aqua;
+padding-left: 30px;
+}
+input{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0px;
+display: inline-block;
+border: 1px solid black;
+box-sizing: border-box;
+border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
